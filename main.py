@@ -29,6 +29,7 @@ tree = app_commands.CommandTree(client)
 async def geekskid(interaction: discord.Interaction, round_id : str):
     round_id = str(round_id)
     round_length = len(round_id)
+    correct = "⭐"
     if round_length < 36:
         await interaction.response.send_message("you are gay lmao L")
     elif round_length == 36:
@@ -38,55 +39,55 @@ async def geekskid(interaction: discord.Interaction, round_id : str):
         c = random.randint(14, 17)
         d = random.randint(18, 25)
         if a == 1:
-            mine1 = "⭐"
+            mine1 = correct
         elif a == 2:
-            mine2 = "⭐"
+            mine2 = correct
         elif a == 3:
-            mine3 = "⭐"
+            mine3 = correct
         elif a == 4:
-            mine4 = "⭐"
+            mine4 = correct
         elif a == 5:
-            mine5 = "⭐"
+            mine5 = correct
         elif a == 6:
-            mine6 = "⭐"
+            mine6 = correct
         elif a == 7:
-            mine7 = "⭐"
+            mine7 = correct
         elif a == 8:
-            mine8 = "⭐"
+            mine8 = correct
         if b == 9:
-            mine9 = "⭐"
+            mine9 = correct
         elif b == 10:
-            mine10 = "⭐"
+            mine10 = correct
         elif b == 11:
-            mine11 = "⭐"
+            mine11 = correct
         elif b == 12:
-            mine12 = "⭐"
+            mine12 = correct
         elif b == 13:
-            mine13 = "⭐"
+            mine13 = correct
         if c == 14:
-            mine14 = "⭐"
+            mine14 = correct
         elif c == 15:
-            mine15 = "⭐"
+            mine15 = correct
         elif c == 16:
-            mine16 = "⭐"
+            mine16 = correct
         elif c == 17:
-            mine17 = "⭐"
+            mine17 = correct
         if d == 18:
-            mine18 = "⭐"
+            mine18 = correct
         elif d == 19:
-            mine19 = "⭐"
+            mine19 = correct
         elif d == 20:
-            mine20 = "⭐"
+            mine20 = correct
         elif d == 21:
-            mine21 = "⭐"
+            mine21 = correct
         elif d == 22:
-            mine22 = "⭐"
+            mine22 = correct
         elif d == 23:
-            mine23 = "⭐"
+            mine23 = correct
         elif d == 24:
-            mine24 = "⭐"
+            mine24 = correct
         elif d == 25:
-            mine25 = "⭐"
+            mine25 = correct
         row1 = mine1 + mine2 + mine3 + mine4 + mine5
         row2 = mine6 + mine7 + mine8 + mine9 + mine10
         row3 = mine11 + mine12 + mine13 + mine14 + mine15
